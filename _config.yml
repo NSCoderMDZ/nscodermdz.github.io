@@ -1,0 +1,9 @@
+# Site settings
+title: NSCoder Mendoza
+tag_text: NSCoder Mendoza
+description: NSCoder Mendoza es un grupo de programadores y diseñadores iOS de Mendoza. Nos juntamos una vez por mes a tomar algo e intercambiar experiencias.
+
+# Build settings
+markdown: kramdown
+
+exclude: ["README.md"]
