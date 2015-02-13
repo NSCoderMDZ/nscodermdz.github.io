@@ -9,8 +9,14 @@ html {
 }
 
 body {
-  margin: 1rem 0 5rem;
+  margin: 2rem 0 5rem;
   color: #333;
+}
+
+@media (min-width: 30rem) {
+  body {
+    margin-top: 3rem;
+  }
 }
 
 a {
@@ -109,7 +115,7 @@ hr {
 }
 
 .logo {
-  padding: 2rem;
+  padding-bottom: 2rem;
 }
 
 .main-header {
