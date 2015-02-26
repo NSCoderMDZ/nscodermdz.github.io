@@ -7,7 +7,7 @@ vez por mes a intercambiar experiencias. ¡Sumate!
 
 ## ¿Cuándo?
 
-El primer martes de cada mes a las 19:00.
+El primer lunes de cada mes a las 19:00.
 
 ## ¿Dónde?
 
