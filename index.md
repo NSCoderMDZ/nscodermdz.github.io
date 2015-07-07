@@ -7,11 +7,11 @@ vez por mes a intercambiar experiencias. ¡Sumate!
 
 ## ¿Cuándo?
 
-El primer lunes de cada mes a las 19:00.
+El primer lunes de cada mes a las 19:30.
 
 ## ¿Dónde?
 
-En el bar Jerome (Arístides 347).
+En William Brown (Arístides 301).
 
 ## Más info
 
