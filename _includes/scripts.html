@@ -1,0 +1,24 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+  $(function() {
+    // Open all external links in a new tab
+    $('a[href^="http"]').each(function() {
+      $(this).attr('target', '_blank');
+    });
+
+    // Only on iOS devices: open the Twitter app directly if available
+    if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
+      $('a[href$="twitter.com/NSCoderMDZ"]').click(function(e) {
+        e.preventDefault();
+        var href = this.href;
+        var newWindow = open('twitter://user?screen_name=NSCoderMDZ', '_blank');
+        setTimeout(function() {
+          if (newWindow && newWindow.location) {
+            // The window object is alive, this means that Twitter is not installed
+            newWindow.location.href = href;
+          }
+        }, 200);
+      });
+    }
+  });
+</script>
